@@ -1,0 +1,374 @@
+body{
+margin: 0;
+
+}
+a {
+    text-decoration: none;
+}
+.header_img{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    
+}
+.header_nav {
+    padding: 30px 340px;
+    text-align: right;
+}
+.nav_a{
+    margin-right: 45px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.hr{
+   color: rgb(94, 94, 92);
+}
+.title{
+    margin-top: 220px;
+    text-align: center;
+    color:aliceblue;    
+}
+.title_p{
+    color:aliceblue;
+
+    margin-bottom: 30px;
+}
+.title_h1{
+    margin: 0;
+    color:aliceblue;
+    font-size: 50px;
+}
+.btm {
+    margin-top: 60px;
+
+width: 200px;
+height: 20px;
+background-color: rgb(20, 114, 196);
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+border-radius: 30px;
+font-size: 20px;
+text-align: center;
+
+}
+.btm a {
+    color: aliceblue;
+}
+
+
+/* Сервис */
+.services_section{
+    height: 600px;
+    margin-top: auto;
+    margin-left: auto;
+}
+.services_section h1{
+    font-size: 40px;
+    text-align: center;
+}
+section .text {
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
+.services{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.services_item {
+    display: flex;  
+    margin-left: 75px;
+    margin-right: 75px;
+    
+}
+
+.img_border{
+    border-radius: 50%;
+    padding: 12px;
+    border: 1px solid;
+    width:  75px;
+    height: 75px;
+    margin-right: 20px;
+}
+.img_border2{
+    border-radius: 50%;
+    padding: 16px;
+    border: 1px solid;
+}
+.services_item p {
+    color: #999999;
+}
+.services_item span {
+    color: #000;
+    font-size: 20px;
+}
+/*Высокие стандарты разработки*/
+.about{
+    height: 800px;
+    background-color: #F6F6F8;
+}
+.about-us{
+    display: flex;
+}
+.about-us-img{
+    padding-top: 70px;
+}
+.about-us-img img{
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+}
+.about-us-text{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.about-us-text h1{ 
+    font-size: 36px;
+}
+.about-us-text p{
+    font-size: 17px;
+    color: #999999;
+}
+.about-us-text a{
+    color: blue;
+}
+.about hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 1250px;
+}
+.about_us__numbers{
+
+}
+.conteiner{
+    padding-left: 100px;
+    display: flex;
+}
+
+.conteiner_projercts{
+    color: #999999;
+    margin-left: 0px;
+}
+.conteiner_number{
+    font-size: 23px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.web_number{
+    display: flex;
+}
+.about_us__numbers{
+    display: flex;
+    margin-left: 200px;
+}
+.about_us__number{
+    padding: 40px 100px;
+}
+.web_number p{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.web_number img{ 
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+hr{
+    background-color: #857b7b;
+}
+
+/*Сервис*/
+.all_services{
+height: 440px;
+background-color: #5F12D0;
+
+}
+.services_text{
+    display: flex;
+}
+.all_services h1{ 
+    color: #fff;
+    font-size: 36px;
+    padding-top: 50px;
+    margin-top: 0;
+    padding-left: 200px;
+
+}
+.services_btm {
+    color: white;
+    background-color: #4985FF;
+    width: 150px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 770px;
+
+}
+.all_services_block{
+ display: flex;
+ margin-left: 200px;
+}
+.all_services_item{
+    padding-right: 170px;
+}
+.all_services_item span{
+    font-size: 20px;
+    color: #4985FF;
+}
+.services_h1{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+
+}
+.services_text {
+    color: #857b7b;
+}
+.services a {
+    color:rgb(20, 114, 196)
+}
+
+.proects{
+    height: 800px;
+    background-color: #F6F6F8;
+    margin-top: 400px;
+}
+.proects h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 80px;
+}
+.proects p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40px;
+    color: #857b7b;
+}
+.all_proects{
+text-align: center;
+
+}
+.all_proects img {
+    margin: 60px 20px;
+}
+.proects a{
+    color: white;
+    background-color: #4985FF;
+    width: 150px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-left: 900px;
+}
+.video{
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    padding-top: 30px;
+    color: #F6F6F8;
+}
+.video h1{
+    font-size: 36px;
+}
+.video p {
+    font-size: 16px;
+}
+.video_img{
+    background-image: url(video_img.png);
+    background-repeat: no-repeat;
+    width: 970px;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+.video_btm{
+    display: flex;
+    margin-left: 350px;
+    border: #fff solid 1px;
+    border-radius: 50px;
+    width: 250px;
+    padding: 20px;
+}
+.video_btm a{ 
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 20px;
+    color: #fff;
+}
+.video_hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250;
+    margin-top: 80px;
+}
+.subcribe{
+    text-align: center;
+}
+.subcribe h1{ 
+    font-size: 18px;
+}
+.subcribe p{
+    color: #999999;
+
+}
+.wrapper{
+    margin-left: 720px;
+    margin-right: auto;
+}
+    #search_wrapper{
+        background-image:url('/path/to/your/sprite.gif');
+        width:400px;
+        height:40px;
+        position:relative;
+    
+    }
+    
+    #search_field {
+        margin-left:40px;
+        background-transparent;
+        height:40px;
+        width:250px;
+    }
+    
+    #search_button {
+        position:absolute;
+        top:0;
+        right:0;
+        width:80px;
+        height:40px;
+    }
+.footer_nav{
+    display: flex;
+    background-color: #F6F6F8;
+    margin-top: 100px;
+}
+.nav_text{
+    display: flex;
+}
+.footer_nav img{
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    border: 0px;
+    
+}
+.content_nav{
+    margin-left: 200px;
+}
+h4 {
+    width: 200px;
+}
